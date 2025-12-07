@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giỏ hàng - Petcute Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="trangchu.html" class="logo">🐾 Petcute Shop</a>
+            <div class="menu">
+                <a href="trangchu.html">Trang chủ</a>
+                <a href="chocanh.html">Chó cảnh</a>
+                <a href="meocanh.html">Mèo cảnh</a>
+                <a href="phukien.html">Phụ kiện</a>
+                <a href="lienhe.html">Liên hệ</a>
+                <a href="giohang.html">Giỏ hàng <span id="cart-count">(0)</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Giỏ hàng của bạn</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hình ảnh</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                    <th>Xóa</th>
+                </tr>
+            </thead>
+            <tbody id="cart-body">
+                </tbody>
+        </table>
+        <div style="text-align: right;">
+            <h2>Tổng tiền: <span id="tong-tien" style="color: var(--accent-color);">0 đ</span></h2>
+            <a href="dathang.html"><button>Tiến hành đặt hàng</button></a>
+        </div>
+    </div>
+
+    <footer><p>&copy; 2024 Petcute Shop.</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

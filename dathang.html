@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đặt hàng - Petcute Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="trangchu.html" class="logo">🐾 Petcute Shop</a>
+            <div class="menu">
+                <a href="trangchu.html">Trang chủ</a>
+                <a href="chocanh.html">Chó cảnh</a>
+                <a href="meocanh.html">Mèo cảnh</a>
+                <a href="phukien.html">Phụ kiện</a>
+                <a href="lienhe.html">Liên hệ</a>
+                <a href="giohang.html">Giỏ hàng <span id="cart-count">(0)</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Xác nhận đặt hàng</h1>
+        <div class="form-box">
+            <h3>Thông tin người nhận</h3>
+            <form onsubmit="xuLyDatHang(event)">
+                <div class="form-group">
+                    <label>Họ tên:</label>
+                    <input type="text" required placeholder="Nhập tên người nhận">
+                </div>
+                <div class="form-group">
+                    <label>Số điện thoại:</label>
+                    <input type="text" required placeholder="Nhập số điện thoại">
+                </div>
+                <div class="form-group">
+                    <label>Địa chỉ giao hàng:</label>
+                    <textarea rows="3" required placeholder="Nhập địa chỉ cụ thể"></textarea>
+                </div>
+                
+                <h3>Đơn hàng của bạn</h3>
+                <table>
+                     <thead>
+                        <tr>
+                            <th>Sản phẩm</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-body">
+                        </tbody>
+                </table>
+                 <h2 style="text-align: right;">Tổng thanh toán: <span id="tong-tien">0 đ</span></h2>
+
+                <button type="submit" style="width: 100%; margin-top: 20px; font-size: 1.2rem;">XÁC NHẬN MUA HÀNG</button>
+            </form>
+        </div>
+    </div>
+
+    <footer><p>&copy; 2024 Petcute Shop.</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

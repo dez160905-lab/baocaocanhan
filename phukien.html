@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phụ Kiện - Petcute Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="trangchu.html" class="logo">🐾 Petcute Shop</a>
+            <div class="menu">
+                <a href="trangchu.html">Trang chủ</a>
+                <a href="chocanh.html">Chó cảnh</a>
+                <a href="meocanh.html">Mèo cảnh</a>
+                <a href="phukien.html">Phụ kiện</a>
+                <a href="lienhe.html">Liên hệ</a>
+                <a href="giohang.html">Giỏ hàng <span id="cart-count">(0)</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Phụ kiện & Thức ăn</h1>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/21.png" alt="Hạt">
+                <h3>Hạt Dinh Dưỡng Royal Canin</h3>
+                <p>Thức ăn cao cấp cho thú cưng.</p>
+                <span class="price">150.000 đ</span>
+                <button onclick="themVaoGio(17, 'Hạt Royal Canin', 150000, 'https://placehold.co/300x200?text=Hat+Cho+Meo')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/22.png" alt="Pate & Súp thưởng">
+                <h3>Pate & Súp thưởng</h3>
+                <p>Thức ăn cao cấp cho thú cưng.</p>
+                <span class="price">150.000 đ</span>
+                <button onclick="themVaoGio(18, 'Pate & Súp thưởng', 150000, 'https://placehold.co/300x200?text=Pate+&+Sup+thuong')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/23.png" alt="Cỏ mèo">
+                <h3>Cỏ mèo (Catnip)</h3>
+                <p>Giúp tiêu búi lông và thư giãn.</p>
+                <span class="price">150.000 đ</span>
+                <button onclick="themVaoGio(19, 'Cỏ mèo', 150000, 'https://placehold.co/300x200?text=Co+meo')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/24.jpg" alt="Xương gặm & Bánh thưởng">
+                <h3>Xương gặm & Bánh thưởng</h3>
+                <p>Giúp sạch răng và dùng để huấn luyện</p>
+                <span class="price">150.000 đ</span>
+                <button onclick="themVaoGio(20, 'Xương gặm & Bánh thưởng', 150000, 'https://placehold.co/300x200?text=Xuong+gam+&+Banh+thuong')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/25.webp" alt="Vòng cổ">
+                <h3>Vòng cổ chuông</h3>
+                <p>Phụ kiện xinh xắn đủ màu sắc.</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Vòng cổ chuông', 50000, 'https://placehold.co/300x200?text=Vong+Co')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/26.png" alt="Cát vệ sinh">
+                <h3>Cát vệ sinh cho mèo</h3>
+                <p>An toàn, sạch sẽ</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Cát vệ sinh', 50000, 'https://placehold.co/300x200?text=Cat+ve+sinh')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/27.jfif" alt="Sữa tắm">
+                <h3>Sữa tắm</h3>
+                <p>Loại trị ve rận, loại làm mượt lông, tắm khô..</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Sữa tắm', 50000, 'https://placehold.co/300x200?text=Sua+tam')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/28.jpg" alt="Balo">
+                <h3>Balo phi hành gia</h3>
+                <p>Món "quốc dân" để đựng mèo.</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Balo', 50000, 'https://placehold.co/300x200?text=Balo')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/29.jfif" alt="Bát ăn">
+                <h3>Bát ăn</h3>
+                <p>Bát đôi, bát chống kiến</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Bát ăn', 50000, 'https://placehold.co/300x200?text=Bat+an')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/30.jfif" alt="Nệm">
+                <h3>Nệm & Ổ</h3>
+                <p>Nệm tròn êm ái</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Nem', 50000, 'https://placehold.co/300x200?text=Nem')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/31.png" alt="Cần câu mèo">
+                <h3>Cần câu mèo</h3>
+                <p>Đồ chơi lông vũ, cá giả</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Cần câu mèo', 50000, 'https://placehold.co/300x200?text=Can+cau+meo')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/32.jpg" alt="Bàn cào móng">
+                <h3>Bàn cào móng</h3>
+                <p>Bắt buộc phải có để mèo không cào sofa</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Bàn cào móng', 50000, 'https://placehold.co/300x200?text=Ban+cao+mong')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/34.jfif" alt="Đồ chơi cao su">
+                <h3>Đồ chơi cao su</h3>
+                <p>Để gặm cho đỡ ngứa răng</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Đồ chơi cao su', 50000, 'https://placehold.co/300x200?text=Do+choi+cao+su')">Thêm vào giỏ</button>
+            </div>
+            <div class="product-card">
+                <img src="images/33.png" alt="Bóng phát ra tiếng kêu">
+                <h3>Bóng phát ra tiếng kêu</h3>
+                <p>Kích thích sự tò mò</p>
+                <span class="price">50.000 đ</span>
+                <button onclick="themVaoGio(7, 'Bóng phát ra tiếng kêu', 50000, 'https://placehold.co/300x200?text=Bong+phat+ra+tieng+keu')">Thêm vào giỏ</button>
+            </div>
+        </div>
+    </div>
+
+    <footer><p>&copy; 2025 Petcute Shop.</p></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
